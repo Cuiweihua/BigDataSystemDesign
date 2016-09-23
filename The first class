@@ -1,0 +1,21 @@
+name=c("a","b","c","d","e")
+name
+nchar(name)
+birthday=c('1','2','3','4','5')
+birthday=as.numeric(birthday);
+birthday
+  mode(name);  mode(birthday)
+  # mode show the type of data
+height = c(168,172,165,130,171);          height
+weight = c(48,79,55,45,55);               weight
+gender = c(FALSE,TRUE,FALSE,TRUE,FALSE);  gender
+plot(height)
+barplot(height)
+
+person = data.frame(name,birthday,height,weight);  person
+getwd()
+write.csv(person,"person.csv")
+install.packages("readxl")
+library(readxl)
+p2 = read_excel("person.xls")
+p2
