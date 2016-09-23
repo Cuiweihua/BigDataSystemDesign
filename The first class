@@ -19,3 +19,5 @@ install.packages("readxl")
 library(readxl)
 p2 = read_excel("person.xls")
 p2
+
+如何插入运行效果图
